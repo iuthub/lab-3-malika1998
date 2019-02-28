@@ -1,0 +1,56 @@
+html{
+		background-image: url(images/background.gif);
+}
+body{
+	background: white;
+	border: 10px white solid;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+img{
+	float:right;	
+}
+
+#par1{
+	background: #A8F0F0;
+	text-align: right;
+}
+
+#par1 h2{
+	font-size: 14pt;	
+}
+
+.par2{
+	background: #E8FBFB;
+	border: 4px #C2E9E9 solid;
+	padding: 5px;
+	margin-top: 10px;
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.date{
+	border-bottom: 2px blue dashed;
+}
+
+p:hover{
+	background-color: yellow;
+}
+.all{
+	float:left;
+	width:50%;
+	padding: 5px;
+	height: 200px
+	border: 4px #C2E9E9 solid;
+}
+
+.bbbody{
+	list-style: none;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	align-items: left;
+	display: -webkit-flex; 
+}
